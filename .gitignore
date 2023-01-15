@@ -1,0 +1,28 @@
+# Ignore composer vendor directory
+vendor/
+
+# Ignore environment-specific config files
+.env
+config/environment/*.php
+
+# Ignore runtime and log files
+runtime/
+logs/
+
+# Ignore build artifacts
+build/
+
+# Ignore IDE files
+*.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore other files
+*.log
+*.sql
+*.sqlite
+*.zip
+*.tar
+*.tar.gz
+*.rar
+/composer.lock

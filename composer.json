@@ -1,0 +1,19 @@
+{
+    "require": {
+        "mikecao/flight": "^2.0",
+        "xy2z/lite-config": "^1.1",
+        "league/plates": "^3.4"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "files": [
+            "functions.php",
+            "routes/sample.php"
+        ]
+    },
+    "require-dev": {
+        "php-sage/sage": "^1.3"
+    }
+}
